@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@WebMvcTest(HomeController.class) // HomeController 의 웹페이지 테스트.
+@WebMvcTest
 class HomeControllerTest {
 
     @Autowired
