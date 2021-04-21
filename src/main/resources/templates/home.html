@@ -7,6 +7,11 @@
     </head>
     <body>
         <img th:src="@{/images/logo_tacobell.jpg}"/>
+
+        <form method="POST" th:action="@{/logout}" id="logoutForm">
+            <input type="submit" value="Logout"/>
+        </form>
+
         <h1>Welcome to.</h1>
         <a th:href="@{/design}">Go to Design Taco</a>
     </body>
